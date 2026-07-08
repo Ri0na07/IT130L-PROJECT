@@ -10,7 +10,6 @@
 </head>
 <body>
 
-<!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark custom-nav sticky-top">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
@@ -38,7 +37,6 @@
   </div>
 </nav>
 
-<!-- Sliding Banner -->
 <div id="imageSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -72,21 +70,17 @@
   </button>
 </div>
 
-<!-- Welcome Section -->
 <section class="container my-5">
   <div class="row g-5 align-items-center">
     <div class="col-md-8">
       <h2 class="text-heading display-6 fw-bold">🌍 Welcome to ExploreEasy</h2>
       <p class="lead text-muted">Your trusted travel partner since <strong>February 2025</strong>, based in <strong>Looc, Dumaguete City, Negros Oriental</strong>.</p>
-      
       <blockquote class="fst-italic bg-light p-4 rounded border-start border-4 border-pink my-4 quote-hover">
         "To unfold the dreams of people ready to embark on the adventure of a lifetime into reality."
       </blockquote>
-
       <p>We take care of every detail — from flight bookings and hotel reservations to guided tours and local transportation. All you need to do is relax and enjoy the experience.</p>
       <p class="fw-medium text-blue mt-3">🎯 We also offer <strong>customized travel plans</strong> and unique handcrafted artworks you can take home as souvenirs.</p>
     </div>
-
     <div class="col-md-4">
       <div class="card custom-card shadow-lg p-4 text-center h-100 float-up">
         <h5 class="text-pink fw-bold fs-5">🔥 Current Exclusive Offers</h5>
@@ -98,12 +92,9 @@
       </div>
     </div>
   </div>
-
-  <!-- Map Section -->
   <div class="mt-5 text-center" id="mapSection">
     <h4 class="text-heading mb-3">📍 Explore Popular Destinations</h4>
     <p class="text-muted small mb-4">Hover over and click to view tour packages</p>
-
     <div class="position-relative d-inline-block" id="mapWrapper">
       <img 
         src="images/map-philippines.jpg" 
@@ -121,7 +112,6 @@
   </div>
 </section>
 
-<!-- Navigation Links Area (no heading) -->
 <section class="bg-light py-5 mt-5 rounded shadow-sm">
   <div class="container">
     <div class="row text-center">
@@ -149,7 +139,6 @@
   </div>
 </section>
 
-<!-- Footer -->
 <footer class="custom-footer py-4 mt-5">
   <div class="container text-center">
     <p class="mb-2">© 2025 ExploreEasy Travel & Tours. All rights reserved.</p>
@@ -160,12 +149,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
-<!-- Map Hover Effect -->
 <script>
-const mapImage = document.querySelector('.map-point');
-const mapWrapper = document.getElementById('mapWrapper');
 const mapImg = document.querySelector('#mapWrapper img');
-
 mapImg.addEventListener('mouseover', () => {
   mapImg.style.filter = 'brightness(1.1)';
 });
