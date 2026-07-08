@@ -24,7 +24,7 @@
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
           <ul class="dropdown-menu custom-dropdown">
             <li><a class="dropdown-item" href="#packages">Travel Packages</a></li>
             <li><a class="dropdown-item" href="#art">Art Collections</a></li>
@@ -38,58 +38,61 @@
 </nav>
 
 <section class="container my-5">
-  <h2 class="text-center text-heading display-6 fw-bold mb-5">Our Services & Offers</h2>
+  <h2 class="text-center text-heading display-6 fw-bold mb-5 fade-in">🛎️ Our Services & Packages</h2>
 
+  <!-- Travel Packages -->
   <div id="packages" class="mb-5">
-    <h4 class="mb-3 text-pink">✈️ Travel Packages</h4>
-    <table class="custom-table table table-hover rounded shadow-sm w-100">
-      <thead>
-        <tr>
-          <th>Service</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Flight & Hotel Booking</td>
-          <td>Best rates for domestic and international destinations</td>
-        </tr>
-        <tr>
-          <td>Guided Tours</td>
-          <td>Visit beaches, mountains, heritage sites, and cultural spots</td>
-        </tr>
-        <tr>
-          <td>Transportation</td>
-          <td>Safe and comfortable transfers during your trip</td>
-        </tr>
-        <tr>
-          <td>Tailor-Made Packages</td>
-          <td>Customized itineraries designed exactly for you</td>
-        </tr>
-      </tbody>
-    </table>
+    <h4 class="mb-4 text-pink">✈️ Travel Packages</h4>
+    <div class="table-responsive shadow-sm rounded">
+      <table class="table custom-table table-hover">
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Flight & Hotel Booking</td>
+            <td>Best rates for domestic and international flights, plus comfortable hotel accommodations</td>
+          </tr>
+          <tr>
+            <td>Guided Tours</td>
+            <td>Professional local guides for city tours, nature treks, island hopping, and heritage visits</td>
+          </tr>
+          <tr>
+            <td>Transportation</td>
+            <td>Private cars, vans, or buses available for your group’s comfort and convenience</td>
+          </tr>
+          <tr>
+            <td>Custom Itineraries</td>
+            <td>We design trips based exactly on your preferences, schedule, and budget</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
+  <!-- Art Collections -->
   <div id="art" class="mb-5 p-4 custom-gradient rounded shadow">
     <h4 class="mb-3">🎨 Art Collections</h4>
-    <p>We feature unique handcrafted artworks, paintings, and crafts inspired by culture and nature. Perfect for collectors, gifts, or home decoration.</p>
+    <p>Support local artists and bring home unique souvenirs! We feature paintings, handwoven crafts, wood carvings, and other artworks from talented creators across Negros Oriental and the Visayas.</p>
   </div>
 
+  <!-- Promos -->
   <div id="promos" class="p-4 promo-box rounded shadow mb-5">
-    <h4 class="mb-3">🎁 Current Promos & Discounts</h4>
+    <h4 class="mb-3">🏷️ Current Promos & Discounts</h4>
     <ul>
-      <li><strong>Early Bird Discount:</strong> Book your package 6 months in advance and get <strong>10% OFF</strong></li>
-      <li><strong>Family & Group Rate:</strong> Save more when booking for 4 or more persons</li>
-      <li><strong>Free Consultation:</strong> We help plan your trip at no extra cost</li>
+      <li><strong>Early Bird:</strong> Book 30 days in advance and get 10% off any package</li>
+      <li><strong>Group Rate:</strong> 15% discount for groups of 6 or more</li>
+      <li><strong>Art + Tour Bundle:</strong> Get a free small artwork when you book any 3-day package</li>
     </ul>
   </div>
 
-  <!-- Gallery Section - All Your Images Included -->
+  <!-- Gallery Section -->
   <div class="mt-5">
     <h4 class="text-center mb-4 text-heading">📸 Travel & Art Gallery</h4>
     <div class="row g-4">
-
-      <!-- Artworks -->
       <div class="col-md-4">
         <a href="images/art1.jpg" data-lightbox="gallery" data-title="Handcrafted Artwork 1">
           <img src="images/art1.jpg" alt="Artwork 1" class="gallery-img rounded shadow w-100 hover-zoom">
@@ -100,8 +103,6 @@
           <img src="images/art2.jpg" alt="Artwork 2" class="gallery-img rounded shadow w-100 hover-zoom">
         </a>
       </div>
-
-      <!-- Nature & Landscapes -->
       <div class="col-md-4">
         <a href="images/beach1.jpg" data-lightbox="gallery" data-title="White Sand Beach">
           <img src="images/beach1.jpg" alt="Beach" class="gallery-img rounded shadow w-100 hover-zoom">
@@ -122,8 +123,6 @@
           <img src="images/mountain.jpg" alt="Mountain" class="gallery-img rounded shadow w-100 hover-zoom">
         </a>
       </div>
-
-      <!-- Culture & Places -->
       <div class="col-md-4">
         <a href="images/city-view.jpg" data-lightbox="gallery" data-title="Dumaguete City View">
           <img src="images/city-view.jpg" alt="City View" class="gallery-img rounded shadow w-100 hover-zoom">
@@ -139,35 +138,33 @@
           <img src="images/culture2.jpg" alt="Culture 2" class="gallery-img rounded shadow w-100 hover-zoom">
         </a>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- Site Map -->
+<!-- Navigation Links Area (no heading) -->
 <section class="bg-light py-5 mt-5 rounded shadow-sm">
   <div class="container">
-    <h4 class="text-center text-heading mb-4">Site Navigation</h4>
     <div class="row text-center">
       <div class="col-md-3">
         <h6 class="fw-bold text-pink">Home</h6>
         <p class="small">Overview, featured offers & destinations</p>
-        <a href="index.html" class="text-decoration-none text-dark">Go to Home</a>
+        <a href="index.html" class="btn btn-outline-pink btn-sm w-75">Go to Home</a>
       </div>
       <div class="col-md-3">
         <h6 class="fw-bold text-pink">About Us</h6>
         <p class="small">Our story, mission, vision & values</p>
-        <a href="about.html" class="text-decoration-none text-dark">Learn More</a>
+        <a href="about.html" class="btn btn-outline-pink btn-sm w-75">Learn More</a>
       </div>
       <div class="col-md-3">
         <h6 class="fw-bold text-pink">Services</h6>
         <p class="small">Tour packages, art collections & discounts</p>
-        <a href="services.html" class="text-decoration-none text-dark">View Services</a>
+        <a href="services.html" class="btn btn-outline-pink btn-sm w-75">View Services</a>
       </div>
       <div class="col-md-3">
         <h6 class="fw-bold text-pink">Contact</h6>
         <p class="small">Location, contact details & inquiry form</p>
-        <a href="contact.html" class="text-decoration-none text-dark">Get In Touch</a>
+        <a href="contact.html" class="btn btn-outline-pink btn-sm w-75">Get In Touch</a>
       </div>
     </div>
   </div>

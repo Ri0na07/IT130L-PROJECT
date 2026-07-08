@@ -38,29 +38,29 @@
   </div>
 </nav>
 
-<!-- Sliding Banner Images -->
+<!-- Sliding Banner -->
 <div id="imageSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/home-banner.jpg" class="d-block w-100" alt="Beautiful Travel Destinations">
-      <div class="carousel-caption bg-overlay rounded p-4 fade-in">
-        <h2 class="display-5 fw-bold">Your Journey Begins Here</h2>
-        <p class="lead">Discover the beauty with ExploreEasy</p>
+      <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3 fade-in">
+        <h2 class="fw-bold">Your Journey Begins Here</h2>
+        <p>Discover the beauty with ExploreEasy</p>
         <a href="services.html" class="btn custom-btn mt-2">View Our Offers</a>
       </div>
     </div>
     <div class="carousel-item">
       <img src="images/beach1.jpg" class="d-block w-100" alt="White Sand Beaches">
-      <div class="carousel-caption bg-overlay rounded p-4 fade-in">
-        <h2 class="display-5 fw-bold">Paradise Awaits You</h2>
-        <p class="lead">Relax on pristine shores and crystal-clear waters</p>
+      <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3 fade-in">
+        <h2 class="fw-bold">Paradise Awaits You</h2>
+        <p>Relax on pristine shores and crystal-clear waters</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="images/falls.jpg" class="d-block w-100" alt="Nature Adventures">
-      <div class="carousel-caption bg-overlay rounded p-4 fade-in">
-        <h2 class="display-5 fw-bold">Explore Nature’s Wonders</h2>
-        <p class="lead">From mountains to waterfalls — every trip is an adventure</p>
+      <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3 fade-in">
+        <h2 class="fw-bold">Explore Nature’s Wonders</h2>
+        <p>From mountains to waterfalls, every trip is an adventure</p>
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@
 <!-- Welcome Section -->
 <section class="container my-5">
   <div class="row g-5 align-items-center">
-    <div class="col-md-8 float-md-start">
+    <div class="col-md-8">
       <h2 class="text-heading display-6 fw-bold">🌍 Welcome to ExploreEasy</h2>
       <p class="lead text-muted">Your trusted travel partner since <strong>February 2025</strong>, based in <strong>Looc, Dumaguete City, Negros Oriental</strong>.</p>
       
@@ -83,68 +83,67 @@
         "To unfold the dreams of people ready to embark on the adventure of a lifetime into reality."
       </blockquote>
 
-      <p>We take care of every detail — from booking flights and accommodations to arranging guided tours and local transportation. All you need to do is relax, explore, and make unforgettable memories.</p>
-      <p class="fw-medium text-blue mt-3">🎯 We also create <strong>tailor-made packages</strong> designed just for your interests, schedule, and budget.</p>
+      <p>We take care of every detail — from flight bookings and hotel reservations to guided tours and local transportation. All you need to do is relax and enjoy the experience.</p>
+      <p class="fw-medium text-blue mt-3">🎯 We also offer <strong>customized travel plans</strong> and unique handcrafted artworks you can take home as souvenirs.</p>
     </div>
 
-    <div class="col-md-4 float-md-end">
+    <div class="col-md-4">
       <div class="card custom-card shadow-lg p-4 text-center h-100 float-up">
         <h5 class="text-pink fw-bold fs-5">🔥 Current Exclusive Offers</h5>
         <ul class="list-group list-group-flush mt-3">
-          <li class="list-group-item bg-paleblue rounded mb-2">✅ <strong>10% OFF</strong> Early Bird Discount</li>
-          <li class="list-group-item bg-yellow rounded mb-2">👨‍👩‍👧‍👦 Special Family & Group Rates</li>
-          <li class="list-group-item bg-green rounded">🎨 Unique Local Art Collections</li>
+          <li class="list-group-item bg-paleblue rounded mb-2">✅ <strong>10% OFF</strong> for early bookings</li>
+          <li class="list-group-item bg-yellow rounded mb-2">👨‍👩‍👧‍👦 Special rates for families and groups</li>
+          <li class="list-group-item bg-green rounded">🎨 Free art print with every tour package</li>
         </ul>
       </div>
     </div>
   </div>
 
-  <!-- Image Map with Hover Effect -->
-  <div class="mt-5 text-center" id="map-container">
+  <!-- Map Section -->
+  <div class="mt-5 text-center" id="mapSection">
     <h4 class="text-heading mb-3">📍 Explore Popular Destinations</h4>
     <p class="text-muted small mb-4">Hover over and click to view tour packages</p>
 
-    <div class="position-relative d-inline-block" id="image-map-wrapper">
+    <div class="position-relative d-inline-block" id="mapWrapper">
       <img 
         src="images/map-philippines.jpg" 
         alt="Philippines Travel Map" 
-        usemap="#destMap" 
-        class="img-fluid rounded shadow-lg map-image pulse"
-        style="max-width:750px;"
+        usemap="#destinationsMap" 
+        class="img-fluid rounded shadow-lg pulse"
+        style="max-width: 750px;"
       >
-      <map name="destMap" id="destMap">
-        <area shape="rect" coords="50,50,180,150" href="services.html#cebu" alt="Cebu Tours" class="map-hotspot">
-        <area shape="circle" coords="300,120,60" href="services.html#dumaguete" alt="Dumaguete Tours" class="map-hotspot">
-        <area shape="poly" coords="420,60,480,130,400,180" href="services.html#palawan" alt="Palawan Tours" class="map-hotspot">
+      <map name="destinationsMap">
+        <area shape="rect" coords="120,180,220,250" href="services.html#cebu" alt="Cebu Tours" class="map-point">
+        <area shape="circle" coords="320,320,40" href="services.html#dumaguete" alt="Dumaguete & Negros Oriental" class="map-point">
+        <area shape="poly" coords="400,200,450,220,430,280,390,260" href="services.html#palawan" alt="Palawan Island" class="map-point">
       </map>
     </div>
   </div>
 </section>
 
-<!-- Purposeful Site Map -->
+<!-- Navigation Links Area (no heading) -->
 <section class="bg-light py-5 mt-5 rounded shadow-sm">
   <div class="container">
-    <h4 class="text-center text-heading mb-4">Site Navigation</h4>
     <div class="row text-center">
       <div class="col-md-3">
         <h6 class="fw-bold text-pink">Home</h6>
         <p class="small">Overview, featured offers & destinations</p>
-        <a href="index.html" class="text-decoration-none text-dark">Go to Home</a>
+        <a href="index.html" class="btn btn-outline-pink btn-sm w-75">Go to Home</a>
       </div>
       <div class="col-md-3">
         <h6 class="fw-bold text-pink">About Us</h6>
         <p class="small">Our story, mission, vision & values</p>
-        <a href="about.html" class="text-decoration-none text-dark">Learn More</a>
+        <a href="about.html" class="btn btn-outline-pink btn-sm w-75">Learn More</a>
       </div>
       <div class="col-md-3">
         <h6 class="fw-bold text-pink">Services</h6>
         <p class="small">Tour packages, art collections & discounts</p>
-        <a href="services.html" class="text-decoration-none text-dark">View Services</a>
+        <a href="services.html" class="btn btn-outline-pink btn-sm w-75">View Services</a>
       </div>
       <div class="col-md-3">
         <h6 class="fw-bold text-pink">Contact</h6>
         <p class="small">Location, contact details & inquiry form</p>
-        <a href="contact.html" class="text-decoration-none text-dark">Get In Touch</a>
+        <a href="contact.html" class="btn btn-outline-pink btn-sm w-75">Get In Touch</a>
       </div>
     </div>
   </div>
@@ -158,26 +157,20 @@
   </div>
 </footer>
 
-<!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
 <!-- Map Hover Effect -->
 <script>
-const hotspots = document.querySelectorAll('.map-hotspot');
-const mapImg = document.querySelector('.map-image');
+const mapImage = document.querySelector('.map-point');
+const mapWrapper = document.getElementById('mapWrapper');
+const mapImg = document.querySelector('#mapWrapper img');
 
-hotspots.forEach(area => {
-  area.addEventListener('mouseover', () => {
-    mapImg.style.filter = 'brightness(1.15) saturate(1.3)';
-    mapImg.style.boxShadow = '0 0 30px rgba(247, 145, 169, 0.8)';
-    document.body.style.cursor = 'pointer';
-  });
-  area.addEventListener('mouseout', () => {
-    mapImg.style.filter = 'brightness(1) saturate(1)';
-    mapImg.style.boxShadow = '0 0 20px rgba(247, 145, 169, 0.5)';
-    document.body.style.cursor = 'default';
-  });
+mapImg.addEventListener('mouseover', () => {
+  mapImg.style.filter = 'brightness(1.1)';
+});
+mapImg.addEventListener('mouseout', () => {
+  mapImg.style.filter = 'brightness(1)';
 });
 </script>
 
