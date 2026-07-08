@@ -26,7 +26,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Services</a>
           <ul class="dropdown-menu custom-dropdown">
-            <li><a class="dropdown-item" href="#travel">Travel Packages</a></li>
+            <li><a class="dropdown-item" href="#packages">Travel Packages</a></li>
             <li><a class="dropdown-item" href="#art">Art Collections</a></li>
             <li><a class="dropdown-item" href="#promos">Promos & Discounts</a></li>
           </ul>
@@ -38,11 +38,10 @@
 </nav>
 
 <section class="container my-5">
-  <h2 class="text-center text-heading mb-5">Our Services & Offers</h2>
+  <h2 class="text-center text-heading display-6 fw-bold mb-5">Our Services & Offers</h2>
 
-  <!-- Services Table -->
-  <div id="travel" class="mb-5">
-    <h4>✈️ Travel Services</h4>
+  <div id="packages" class="mb-5">
+    <h4 class="mb-3 text-pink">✈️ Travel Packages</h4>
     <table class="custom-table table table-hover rounded shadow-sm w-100">
       <thead>
         <tr>
@@ -71,15 +70,13 @@
     </table>
   </div>
 
-  <!-- Art Collections -->
   <div id="art" class="mb-5 p-4 custom-gradient rounded shadow">
-    <h4>🎨 Art Collections</h4>
+    <h4 class="mb-3">🎨 Art Collections</h4>
     <p>We feature unique handcrafted artworks, paintings, and crafts inspired by local culture and nature. Perfect for collectors, gifts, or home decoration.</p>
   </div>
 
-  <!-- Promos Section -->
   <div id="promos" class="p-4 promo-box rounded shadow mb-5">
-    <h4>🎁 Current Promos & Discounts</h4>
+    <h4 class="mb-3">🎁 Current Promos & Discounts</h4>
     <ul>
       <li><strong>Early Bird Discount:</strong> Book your package 6 months in advance and get <strong>10% OFF</strong></li>
       <li><strong>Family & Group Rate:</strong> Save more when booking for 4 or more persons</li>
@@ -87,38 +84,77 @@
     </ul>
   </div>
 
-  <!-- Image Gallery + Lightbox Pop-up -->
+  <!-- Gallery - YOU CAN ADD MORE IMAGES HERE -->
   <div class="mt-5">
-    <h4 class="text-center mb-4">📸 Travel & Art Gallery</h4>
-    <div class="row g-3">
+    <h4 class="text-center mb-4 text-heading">📸 Travel & Art Gallery</h4>
+    <div class="row g-4">
       <div class="col-md-4">
-        <a href="images/beach1.jpg" data-lightbox="gallery" data-title="Beautiful Beach Resort">
-          <img src="images/beach1.jpg" alt="Beach" class="gallery-img rounded shadow w-100">
+        <a href="images/beach1.jpg" data-lightbox="gallery" data-title="White Sand Beach">
+          <img src="images/beach1.jpg" alt="Beach" class="gallery-img rounded shadow w-100 hover-zoom">
         </a>
       </div>
       <div class="col-md-4">
-        <a href="images/mountain.jpg" data-lightbox="gallery" data-title="Mountain Adventure">
-          <img src="images/mountain.jpg" alt="Mountain" class="gallery-img rounded shadow w-100">
+        <a href="images/mountain.jpg" data-lightbox="gallery" data-title="Mountain View">
+          <img src="images/mountain.jpg" alt="Mountain" class="gallery-img rounded shadow w-100 hover-zoom">
         </a>
       </div>
       <div class="col-md-4">
-        <a href="images/art1.jpg" data-lightbox="gallery" data-title="Handcrafted Artwork">
-          <img src="images/art1.jpg" alt="Art" class="gallery-img rounded shadow w-100">
+        <a href="images/art1.jpg" data-lightbox="gallery" data-title="Handmade Artwork">
+          <img src="images/art1.jpg" alt="Art" class="gallery-img rounded shadow w-100 hover-zoom">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="images/beach2.jpg" data-lightbox="gallery" data-title="Island Paradise">
+          <img src="images/beach2.jpg" alt="Island" class="gallery-img rounded shadow w-100 hover-zoom">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="images/falls.jpg" data-lightbox="gallery" data-title="Tropical Waterfall">
+          <img src="images/falls.jpg" alt="Waterfall" class="gallery-img rounded shadow w-100 hover-zoom">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="images/culture.jpg" data-lightbox="gallery" data-title="Cultural Experience">
+          <img src="images/culture.jpg" alt="Culture" class="gallery-img rounded shadow w-100 hover-zoom">
         </a>
       </div>
     </div>
   </div>
 </section>
 
-<footer class="custom-footer py-4">
+<!-- Site Map -->
+<section class="bg-light py-5 mt-5 rounded shadow-sm">
   <div class="container">
-    <p><strong>Site Map:</strong>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About Us</a> |
-      <a href="services.html">Services & Packages</a> |
-      <a href="contact.html">Contact</a>
-    </p>
-    <p>Developed by: [Your Full Name & Student ID] | IT130L Web Design Project</p>
+    <h4 class="text-center text-heading mb-4">🗺️ Site Navigation</h4>
+    <div class="row text-center">
+      <div class="col-md-3">
+        <h6 class="fw-bold text-pink">Home</h6>
+        <p class="small">Overview, featured offers & destinations</p>
+        <a href="index.html" class="text-decoration-none text-dark">Go to Home</a>
+      </div>
+      <div class="col-md-3">
+        <h6 class="fw-bold text-pink">About Us</h6>
+        <p class="small">Our story, mission, vision & team</p>
+        <a href="about.html" class="text-decoration-none text-dark">Learn More</a>
+      </div>
+      <div class="col-md-3">
+        <h6 class="fw-bold text-pink">Services</h6>
+        <p class="small">Tour packages, art collections & discounts</p>
+        <a href="services.html" class="text-decoration-none text-dark">View Services</a>
+      </div>
+      <div class="col-md-3">
+        <h6 class="fw-bold text-pink">Contact</h6>
+        <p class="small">Location, contact details & inquiry form</p>
+        <a href="contact.html" class="text-decoration-none text-dark">Get In Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="custom-footer py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-2">© 2025 ExploreEasy Travel & Tours. All rights reserved.</p>
+    <p class="mb-0">Developed by: <strong>Rhyss Riona Maliel Crispo</strong></p>
   </div>
 </footer>
 
