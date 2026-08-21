@@ -3,12 +3,12 @@
 This project is a website developed for **ExploreEasy Travel and Tours & Art Collections**.
 The website serves as an informational and service platform that introduces the business, its offers, and provides visitors with access to travel packages, art collections, and contact details.
 
-🌐 **Live Website:**
+ **Live Website:**
 https://ri0na07.github.io/IT130L-PROJECT/index.html
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The purpose of this project is to create a responsive and user-friendly website for a local travel agency.
 It is designed to help customers easily learn about the business, view available travel services and packages, check promotions, and get in touch for bookings or inquiries.
@@ -21,7 +21,7 @@ The website focuses on:
 
 ---
 
-## 🧩 Features
+##  Features
 
 - Home page with introduction, featured offers, and popular destinations
 - About Us page showing business background, mission, and vision
@@ -37,7 +37,7 @@ The website focuses on:
 
 ---
 
-## 📝 Links
+##  Links
 
 - Live Website: https://ri0na07.github.io/IT130L-Project/index.html
 - Facebook Page: ExploreEasy Travel and Tours & Art Collections
@@ -45,7 +45,7 @@ The website focuses on:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **HTML5** – Page structure, content, links, tables, and forms
 - **CSS3** – Styling, layout, colors, and visual effects
@@ -55,7 +55,7 @@ The website focuses on:
 
 ---
 
-## 👤 Developer Information
+##  Developer Information
 
 | Name | Role / Contributions |
 |------|----------------------|
@@ -63,14 +63,14 @@ The website focuses on:
 
 ---
 
-## 📚 Course Information
+##  Course Information
 
 **Course:** IT130L – Web Development Laboratory
 **Project Type:** Individual Website Development Project
 
 ---
 
-## 📷 Preview
+##  Preview
 
 You can view the full working website here:
-👉 https://ri0na07.github.io/IT130L-PROJECT/index.html
+https://ri0na07.github.io/IT130L-PROJECT/index.html
